@@ -42,3 +42,9 @@ end
 def sum_array(array)
   array.inject {|sum, n| sum + n }
 end
+
+def add_s(array)
+  array.each do |string|
+    if string !="feet"
+      string.insert(string.length,"s")
+end
