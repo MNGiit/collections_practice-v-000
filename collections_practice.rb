@@ -3,6 +3,5 @@ def sort_array_asc(array)
 end
 
 def sort_array_dec(array)
-  new_array = sort_array_asc(array)
-  new_array.reverse
+  array.sort {|x, y| y <=> x}
 end
