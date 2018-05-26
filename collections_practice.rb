@@ -48,4 +48,5 @@ def add_s(array)
     if string !="feet"
       string.insert(string.length,"s")
     end
+  end
 end
